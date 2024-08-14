@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <Nav />
-      <section>
+      <section className="py-8 px-12 text-center">
          <div>
            <img src={about} alt="about img" />           
          </div>
