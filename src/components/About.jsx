@@ -5,7 +5,12 @@ const About = () => {
     <>
       <Nav />
       <section>
-         
+         <div>
+            
+         </div>
+         <div>
+          
+         </div>
       </section>
     </>
   )
