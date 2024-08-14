@@ -1,6 +1,13 @@
 import Nav from "./nav"
 import about from "../assets/image/about.jpg"
+import { useNavigate } from "react-router-dom"
+
 const About = () => {
+  const navigate = useNavigate();
+  const learn = () =>{
+    navigate("/service");
+  }
+
   return (
     <>
       <Nav />
@@ -13,7 +20,10 @@ const About = () => {
            <p className="text-md mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, 
               exercitationem! Repellendus, at. Explicabo corrupti dolorem fugit culpa cumque.
            </p>
-           <button className="border border-slate-600 px-5 py-2 mt-4 text-lg font-bold">Learn More</button>
+           <button className="border border-slate-600 px-5 py-2 mt-4 text-lg font-bold"
+                   onClick={()=>learn()}>
+                   Learn More
+          </button>
          </div>
       </section>
     </>
