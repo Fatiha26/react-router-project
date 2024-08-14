@@ -1,6 +1,14 @@
 import Nav from "./nav"
+import home from "../assets/image/bg.jpg"
+import { useNavigate } from "react-router-dom"
 
 const Home = () => {
+    const navigate = useNavigate();
+    const learn = () =>{
+      navigate("/about");
+    }
+    
+
   return (
     <>
         <Nav />
@@ -16,7 +24,7 @@ const Home = () => {
           </button>
          </div>
          <div>
-           <img src={about} alt="about img" className="h-96 w-full" />           
+           <img src={home} alt="about img" className=" w-auto" />           
          </div>
         </section>
     </>
