@@ -9,11 +9,10 @@ const About = () => {
            <img src={about} alt="about img" className="h-96 w-full" />           
          </div>
          <div>
-           <h2>Welcome to Our World</h2>
+           <h2 className="font-bold text-3xl">Welcome to Our World</h2>
            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, 
               exercitationem! Repellendus, at. Explicabo corrupti dolorem fugit culpa cumque.
            </p>
-
          </div>
       </section>
     </>
