@@ -5,13 +5,14 @@ import Services from "./components/Services"
 import Project from "./components/Project"
 import Contact from "./components/Contact"
 import Error from "./components/error"
+import Home from "./components/Home"
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
          <Routes>
-            <Route path="/" element={<Nav />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />}/>
             <Route path="/service" element={<Services />}/>
             <Route path="/project" element={<Project />}/>
