@@ -1,7 +1,13 @@
+import Nav from "./nav"
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Nav />
+      <section>
+        <h1>welcome to about</h1>
+      </section>
+    </>
   )
 }
 
