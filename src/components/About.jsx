@@ -13,6 +13,7 @@ const About = () => {
            <p className="text-md mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, 
               exercitationem! Repellendus, at. Explicabo corrupti dolorem fugit culpa cumque.
            </p>
+           <button>Learn More</button>
          </div>
       </section>
     </>
