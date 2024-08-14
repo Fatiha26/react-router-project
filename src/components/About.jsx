@@ -6,7 +6,7 @@ const About = () => {
       <Nav />
       <section className="py-8 px-12 text-center">
          <div>
-           <img src={about} alt="about img" />           
+           <img src={about} alt="about img" className="h-96 w-full" />           
          </div>
          <div>
            <h2>Welcome to Our World</h2>
