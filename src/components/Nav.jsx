@@ -11,8 +11,9 @@ const Nav = () => {
           <li>
             <NavLink 
               to="/" 
-              className="py-4 px-8 text-md hover:text-slate-500"
-              activeClassName="text-slate-700 font-bold"
+              className={({ isActive }) => 
+                isActive ? "py-4 px-8 text-slate-700 font-bold" : "py-4 px-8 text-md hover:text-slate-500"
+              }
             >
               Home
             </NavLink>
@@ -20,8 +21,9 @@ const Nav = () => {
           <li>
             <NavLink 
               to="/about" 
-              className="py-4 px-8 text-md hover:text-slate-500"
-              activeClassName="text-slate-700 font-bold"
+              className={({ isActive }) => 
+                isActive ? "py-4 px-8 text-slate-700 font-bold" : "py-4 px-8 text-md hover:text-slate-500"
+              }
             >
               About
             </NavLink>
@@ -29,8 +31,9 @@ const Nav = () => {
           <li>
             <NavLink 
               to="/service" 
-              className="py-4 px-8 text-md hover:text-slate-500"
-              activeClassName="text-slate-700 font-bold"
+              className={({ isActive }) => 
+                isActive ? "py-4 px-8 text-slate-700 font-bold" : "py-4 px-8 text-md hover:text-slate-500"
+              }
             >
               Services
             </NavLink>
@@ -38,8 +41,9 @@ const Nav = () => {
           <li>
             <NavLink 
               to="/project" 
-              className="py-4 px-8 text-md hover:text-slate-500"
-              activeClassName="text-slate-700 font-bold"
+              className={({ isActive }) => 
+                isActive ? "py-4 px-8 text-slate-700 font-bold" : "py-4 px-8 text-md hover:text-slate-500"
+              }
             >
               Project
             </NavLink>
@@ -47,8 +51,9 @@ const Nav = () => {
           <li>
             <NavLink 
               to="/contact" 
-              className="py-4 px-8 text-md hover:text-slate-500"
-              activeClassName="text-slate-700 font-bold"
+              className={({ isActive }) => 
+                isActive ? "py-4 px-8 text-slate-700 font-bold" : "py-4 px-8 text-md hover:text-slate-500"
+              }
             >
               Contact
             </NavLink>

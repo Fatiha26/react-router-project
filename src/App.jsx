@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Nav from "./components/nav"
 import About from "./components/About"
 import Services from "./components/Services"
 import Project from "./components/Project"
