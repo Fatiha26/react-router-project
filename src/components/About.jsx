@@ -10,6 +10,9 @@ const About = () => {
          </div>
          <div>
            <h2>Welcome to Our World</h2>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, 
+              exercitationem! Repellendus, at. Explicabo corrupti dolorem fugit culpa cumque.
+           </p>
 
          </div>
       </section>
