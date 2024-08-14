@@ -1,8 +1,13 @@
+import Nav from "./nav"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
+<>
+      <Nav />
+      <section>
+        <h1>welcome to contact</h1>
+      </section>
+    </>  )
 }
 
 export default Contact

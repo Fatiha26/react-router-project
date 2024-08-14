@@ -1,8 +1,13 @@
+import Nav from "./nav"
 
 const Project = () => {
   return (
-    <div>Project</div>
-  )
+<>
+      <Nav />
+      <section>
+        <h1>welcome to project</h1>
+      </section>
+    </>  )
 }
 
 export default Project
