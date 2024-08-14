@@ -6,10 +6,10 @@ const About = () => {
       <Nav />
       <section>
          <div>
-           <img src={about} alt="about img" />
-            
+           <img src={about} alt="about img" />           
          </div>
          <div>
+           <h2>Welcome to Our World</h2>
 
          </div>
       </section>
