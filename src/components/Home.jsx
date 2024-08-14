@@ -15,6 +15,9 @@ const Home = () => {
                    Learn More
           </button>
          </div>
+         <div>
+           <img src={about} alt="about img" className="h-96 w-full" />           
+         </div>
         </section>
     </>
   )
